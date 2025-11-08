@@ -58,7 +58,7 @@ body {
 /* === BANNER PRINCIPAL === */
 .hero {
     background: linear-gradient(70deg, #44464d, #44464d 100%);
-    color: white;
+    color: #f7f7f7;
     padding: 3rem 1rem;
     text-align: center;
 }
