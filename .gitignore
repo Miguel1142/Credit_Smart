@@ -1,0 +1,7 @@
+# archivos y carpetas a ignorar
+node_modules/
+.vscode/
+*.log
+.DS_Store
+dist/
+.env

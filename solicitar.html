@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CreditSmart | Solicitar Crédito</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- NAV -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">💳 CreditSmart</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="simulador.html">Simulador</a></li>
+                    <li><a href="solicitar.html" class="active">Solicitar crédito</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero hero-form">
+        <div class="container">
+            <h2>Formulario de Solicitud</h2>
+            <p>Completa los siguientes datos para solicitar tu crédito con CreditSmart.</p>
+        </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <main class="container">
+        <section class="form-section">
+            <form class="credit-form" novalidate>
+                <!-- DATOS PERSONALES -->
+                <fieldset>
+                    <legend>Datos Personales</legend>
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cedula">Número de identificación</label>
+                        <input type="number" id="cedula" name="cedula" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="telefono">Teléfono de contacto</label>
+                        <input type="tel" id="telefono" name="telefono" />
+                    </div>
+                </fieldset>
+
+                <!-- DATOS DEL CRÉDITO -->
+                <fieldset>
+                    <legend>Datos del Crédito</legend>
+
+                    <div class="form-group">
+                        <label for="tipo">Tipo de crédito</label>
+                        <select id="tipo" name="tipo" required>
+                            <option value="">Seleccione una opción</option>
+                            <option value="libre">Crédito Libre Inversión</option>
+                            <option value="vehiculo">Crédito Vehículo</option>
+                            <option value="vivienda">Crédito Vivienda</option>
+                            <option value="educativo">Crédito Educativo</option>
+                            <option value="empresarial">Crédito Empresarial</option>
+                            <option value="consumo">Crédito Consumo</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="monto">Monto solicitado (en millones)</label>
+                        <input type="number" id="monto" name="monto" min="1" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="plazo">Plazo (meses)</label>
+                        <select id="plazo" name="plazo" required>
+                            <option value="">Seleccione...</option>
+                            <option value="12">12</option>
+                            <option value="24">24</option>
+                            <option value="36">36</option>
+                            <option value="60">60</option>
+                            <option value="120">120</option>
+                            <option value="240">240</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="destino">Destino del crédito</label>
+                        <textarea id="destino" name="destino" rows="3"
+                            placeholder="Ej: remodelación, estudio, vehículo..." required></textarea>
+                    </div>
+                </fieldset>
+
+                <!-- DATOS LABORALES -->
+                <fieldset>
+                    <legend>Datos Laborales</legend>
+
+                    <div class="form-group">
+                        <label for="empresa">Empresa donde trabaja</label>
+                        <input type="text" id="empresa" name="empresa" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="cargo">Cargo</label>
+                        <input type="text" id="cargo" name="cargo" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ingresos">Ingresos mensuales (en pesos)</label>
+                        <input type="number" id="ingresos" name="ingresos" />
+                    </div>
+                </fieldset>
+
+                <div class="form-actions">
+                    <button type="submit" class="btn-primary">Enviar Solicitud</button>
+                    <button type="reset" class="btn-secondary">Limpiar Formulario</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© CreditSmart - Derechos reservados</p>
+    </footer>
+</body>
+
+</html>

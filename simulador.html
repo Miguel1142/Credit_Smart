@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreditSmart | Simulador de creditos</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- NAVEGACIÓN -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <h1 class="logo">💳 CreditSmart</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="simulador.html" class="active">Simulador</a></li>
+                    <li><a href="solicitar.html">Solicitar crédito</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ENCABEZADO -->
+    <section class="hero hero-simulador">
+        <div class="container">
+            <h2>Simula tu credito ideal</h2>
+            <p>Calcula tus cuotas mensuales y encuentra el crédito ideal para ti.</p>
+        </div>
+    </section>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="container">
+        <!-- FORMULARIO -->
+        <section class="filtro-section">
+            <h3>Buscar o filtrar crédito</h3>
+            <form class="filtro-form" onsubmit="return false;">
+                <div class="form-group>
+                    <label for=" tipo">Tipo de credito</label>
+                    <select id="tipo" name="tipo">
+                        <option value="">Todos</option>
+                        <option value="libre-inversion">Crédito libre inversión</option>
+                        <option value="vivienda">Crédito de vivienda</option>
+                        <option value="vehiculo">Crédito de vehículo</option>
+                        <option value="educativo">Crédito educativo</option>
+                        <option value="empresarial"> credito empresarial</option>
+                        <option value="consumo">Crédito consumo</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="monto">Monto máximo</label>
+                    <select id="monto" name="monto">
+                        <option value="">Cualquier monto</option>
+                        <option value="5">Hasta $5 millones</option>
+                        <option value="20">Hasta $20 millones</option>
+                        <option value="100">Hasta $100 millones</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="plazo">Plazo máximo</label>
+                    <select id="plazo" name="plazo">
+                        <option value="">Cualquiera</option>
+                        <option value="24">24 meses</option>
+                        <option value="60">60 meses</option>
+                        <option value="120">120 meses</option>
+                        <option value="240">240 meses</option>
+                    </select>
+                </div>
+
+                <button type="button" class="btn-primary">Aplicar filtro</button>
+            </form>
+        </section>
+
+        <!-- RESULTADOS -->
+        <section class="results-section">
+            <h3>Resultados disponibles</h3>
+            <div class="credits-grid">
+                <!-- Card 1 -->
+                <article class="credit-card">
+                    <div class="card-header">
+                        <span class="icon">💵</span>
+                        <h4>Crédito Libre Inversión</h4>
+                    </div>
+                    <p>Perfecto para cubrir gastos personales o invertir en tus metas.</p>
+                    <div class="details">
+                        <div class="detail-item">
+                            <span class="label">Tasa de interés</span>
+                            <span class="value highlight">1.8% mensual</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Plazo</span>
+                            <span class="value">Hasta 60 meses</span>
+                        </div>
+                    </div>
+                    <a href="solicitar.html" class="btn-primary">Solicitar</a>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="credit-card">
+                    <div class="card-header">
+                        <span class="icon">🚗</span>
+                        <h4>Crédito Vehículo</h4>
+                    </div>
+                    <p>Financia tu nuevo auto con cuotas cómodas y flexibles.</p>
+                    <div class="details">
+                        <div class="detail-item">
+                            <span class="label">Tasa de interés</span>
+                            <span class="value highlight">1.5% mensual</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Plazo</span>
+                            <span class="value">Hasta 84 meses</span>
+                        </div>
+                    </div>
+                    <a href="solicitar.html" class="btn-primary">Solicitar</a>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="credit-card">
+                    <div class="card-header">
+                        <span class="icon">🏡</span>
+                        <h4>Crédito Vivienda</h4>
+                    </div>
+                    <p>Compra tu vivienda propia con tasas preferenciales.</p>
+                    <div class="details">
+                        <div class="detail-item">
+                            <span class="label">Tasa de interés</span>
+                            <span class="value highlight">0.9% mensual</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Plazo</span>
+                            <span class="value">Hasta 240 meses</span>
+                        </div>
+                    </div>
+                    <a href="solicitar.html" class="btn-primary">Solicitar</a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© CreditSmart - Derechos reservados</p>
+    </footer>
+</body>
+
+</html>
