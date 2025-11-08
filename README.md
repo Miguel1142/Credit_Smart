@@ -1,16 +1,57 @@
-# Sistema Web de Gestión de Solicitudes de Crédito
+# 💻 Proyecto CreditSmart
 
-*Nombre del estudiante:* [Santiago Palacio Londoño]
-                          [MiguelÁngel Oyola Álvarez]
-
-##  Descripción del Proyecto
-Este proyecto consiste en el desarrollo de la interfaz de usuario de un sistema web para la gestión de solicitudes de crédito. El objetivo es aplicar los conceptos fundamentales de *HTML5, **CSS3* y *diseño responsive*, garantizando una presentación moderna, ordenada y funcional.
-
-El sitio está compuesto por tres páginas principales:
-1. *Página Principal (Catálogo de Créditos)*
-2. *Página Simulador (Comparación Visual de Créditos)*
-3. *Página de Solicitud (Formulario)*
+Este proyecto es una página web desarrollada con HTML y CSS.  
+Su objetivo es simular un crédito y permitir al usuario calcular montos, tasas y cuotas.
 
 ---
 
-##  Estructura de Archivos
+## 🚀 Estructura del sitio
+
+- *index.html* → Página principal  
+- *simulador.html* → Calculadora de crédito  
+- *solicitar.html* → Formulario de solicitud  
+- *style.css* → Estilos generales
+
+---
+
+## 🖼️ Capturas de pantalla del código
+
+A continuación se muestran fragmentos del código y vistas del sitio.
+
+![Captura del Index.html](./img/index1.png)
+![Captura del Index.html](./img/index2.png)
+![Captura del Index.html](./img/index3.png)
+![Captura del Index.html](./img/index4.png)
+![Captura del Index.html](./img/index5.png)
+![Captura del Index.html](./img/index6.png)
+![Captura del Index.html](./img/index7.png)
+![Captura del Index.html](./img/index8.png)
+![Captura del simulador.html](./img/simulador1.png)
+![Captura del simulador.html](./img/simulador2.png)
+![Captura del simulador.html](./img/simulador3.png)
+![Captura del simulador.html](./img/simulador4.png)
+![Captura del simulador.html](./img/simulador5.png)
+![Captura del solicitar.html](./img/solicitar1.png)
+![Captura del solicitar.html](./img/solicitar2.png)
+![Captura del solicitar.html](./img/solicitar3.png)
+![Captura del solicitar.html](./img/solicitar4.png)
+![Captura del solicitar.html](./img/solicitar5.png)
+![Captura CSS](./img/css1.png)
+![Captura CSS](./img/css2.png)
+![Captura CSS](./img/css3.png)
+![Captura CSS](./img/css4.png)
+![Captura CSS](./img/css5.png)
+![Captura CSS](./img/css6.png)
+![Captura CSS](./img/css7.png)
+![Captura CSS](./img/css8.png)
+![Captura CSS](./img/css9.png)
+![Captura CSS](./img/css10.png)
+![Captura CSS](./img/css11.png)
+
+---
+
+## 👨‍💻 Autores
+
+*Miguel Ángel Oyola Álvarez*  
+*Santiago Palacio Londoño*
+Universidad *IU digital de Antioquia*
